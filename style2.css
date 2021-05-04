@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(128, 128, 128, 0.123);
+}
+nav{
+    background-color: rgb(100, 149, 237);
+    height: 15vh;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 6px;
+    margin-left: 70px;
+}
+button:hover{
+    cursor: pointer;
+}
+button{
+    margin: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px, 20px;
+    letter-spacing: 2px;
+    
+}
+h1{
+    margin: 20px;
+}
+.butoane{
+    margin: 20px;
+    margin-right: 40px;
+}
+.btn{
+    padding: 5px 20px;
+}
+.v{
+    font-size: 35px;
+    font-weight: 500;
+    font-style: oblique;
+}
+footer{
+        background-image: linear-gradient( to top, rgba(0, 89, 255, 0.747), rgba(128, 128, 128, 0.123));
+        height: 15vh;
+        margin: 0px;
+        position: bottom;
+    
+    }
+
+
+.card{
+    display: flex;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.486);
+    margin-left:50px;
+    margin-right: 50px;
+}
+.titlu{
+    border-right: 2px solid rgba(0, 0, 0, 0.644);
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    letter-spacing: 2px;
+    
+    
+}
+.continut{
+    margin-top: 79px;
+    color: rgba(0, 0, 0, 0.795);
+}
+img{
+    width: 300px;
+    margin-right: 10px;
+}
+
+.drepturi{
+    
+    padding-top: 30px ;
+    text-align: center;
+}
+.titluPagina{
+    text-align: center;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.753);
+    font-weight: 300;
+}
+p{
+    font-size: 1.2em;
+}
